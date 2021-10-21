@@ -1724,7 +1724,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1393523508463233378
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,7 +3990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8455b12adb2e3b443a1239d5e612522c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToggleMenuPanel: 27
+  returnToMenu_button: {fileID: 3692786580280554046}
+  back: {fileID: 3732265393974989825}
+  toggleMenuPanelKey: 27
 --- !u!1 &2350861710795067866
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,7 +5298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6165434392394453873
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6907,7 +6909,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &4156482121327779984
 GameObject:
   m_ObjectHideFlags: 0
@@ -7141,7 +7143,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &4243126621456628654
 GameObject:
   m_ObjectHideFlags: 0
@@ -8617,7 +8619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &883709364112838805
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9239,7 +9241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7121006813587193364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9643,7 +9645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4590036848508928765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10780,7 +10782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6394696237344682779
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13198,43 +13200,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 612322409805240679}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3869309577950483755}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
-        m_MethodName: set_text
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SETTINGS
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3848315350078390522}
-        m_TargetAssemblyTypeName: SelectionManagement, Assembly-CSharp
-        m_MethodName: ActivateGameObjectOnly
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 3233258372087047365}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 7892320056039240757}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &7774926067159294351
 GameObject:
   m_ObjectHideFlags: 0
@@ -13465,7 +13431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1492686214556016757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14144,7 +14110,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &8503942807655986057
 GameObject:
   m_ObjectHideFlags: 0
