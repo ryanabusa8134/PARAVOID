@@ -2058,7 +2058,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1393523508463233378
 GameObject:
   m_ObjectHideFlags: 0
@@ -10197,6 +10197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
@@ -10457,6 +10458,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &2658804421921050473
+=======
+  ToggleMenuPanel: 27
+--- !u!1 &2350861710795067866
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11839,7 +11844,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &3757416039296777133
+=======
+--- !u!224 &6165434392394453873
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13621,7 +13630,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+<<<<<<< HEAD
 --- !u!1 &4621371204113206191
+=======
+  m_IsOn: 1
+--- !u!1 &4156482121327779984
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13814,7 +13828,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
+<<<<<<< HEAD
 --- !u!1 &4156482121327779984
+=======
+--- !u!1 &4243126621456628654
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15489,7 +15507,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &905127717013559990
+=======
+--- !u!224 &883709364112838805
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16149,8 +16171,13 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!224 &6909547805402496832
+=======
+  m_IsActive: 0
+--- !u!224 &7121006813587193364
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16560,8 +16587,13 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!224 &6394696237344682779
+=======
+  m_IsActive: 0
+--- !u!224 &4590036848508928765
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17589,7 +17621,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &6403090019917872899
+=======
+--- !u!224 &6394696237344682779
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19687,6 +19723,7 @@ MonoBehaviour:
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -19703,6 +19740,46 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: +
 --- !u!1 &8036343073813653633
+=======
+      m_Calls:
+      - m_Target: {fileID: 3869309577950483755}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SETTINGS
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3848315350078390522}
+        m_TargetAssemblyTypeName: SelectionManagement, Assembly-CSharp
+        m_MethodName: ActivateGameObjectOnly
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3233258372087047365}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7892320056039240757}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &7774926067159294351
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19942,7 +20019,77 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< HEAD
 --- !u!1 &8321874416641302118
+=======
+--- !u!1 &7892320056039240757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492686214556016757}
+  - component: {fileID: 5715711500498064848}
+  - component: {fileID: 3848315350078390522}
+  m_Layer: 5
+  m_Name: MenuTabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1492686214556016757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892320056039240757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.865536, y: 0.865536, z: 0.865536}
+  m_Children:
+  - {fileID: 3014784415478114339}
+  - {fileID: 6165434392394453873}
+  - {fileID: 2081772935791310903}
+  - {fileID: 2059590269983096332}
+  - {fileID: 7685857042300010297}
+  m_Father: {fileID: 9020386607544184843}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 243, y: -80}
+  m_SizeDelta: {x: -394.82, y: -192.95}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5715711500498064848
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892320056039240757}
+  m_CullTransparentMesh: 1
+--- !u!114 &3848315350078390522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892320056039240757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a976ec1912c45d4793db1fcc3b1c968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialToggles: []
+  considerdObjects:
+  - {fileID: 3233258372087047365}
+  - {fileID: 1774893926028075713}
+--- !u!1 &7948467584392709919
+>>>>>>> parent of 5d8fafa (Some personal adjustments)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20517,7 +20664,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &8503942807655986057
 GameObject:
   m_ObjectHideFlags: 0

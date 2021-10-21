@@ -5,31 +5,17 @@ using UnityEngine.UI;
 
 namespace ParavoidUI
 {
-    public class Fader : MonoBehaviour
+   public class Fader : MonoBehaviour
     {
         //private Image screen;
         private bool isFaded;
-        public Button returnToMenu_button;
-        public Button back;
 
-        public KeyCode toggleMenuPanelKey = KeyCode.Escape;
+        public KeyCode ToggleMenuPanel = KeyCode.Escape;
 
         public void Awake()
         {
             //screen = GetComponent<Image>();
             UnFadeScreen();
-            returnToMenu_button.onClick.AddListener(delegate
-            {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-                Time.timeScale = 1;
-                SceneLoader.LoadScene("TitleScene");
-            });
-
-            back.onClick.AddListener(delegate
-            {
-                ToggleMenuPanel();
-            });
         }
 
         public void Update()
@@ -39,37 +25,27 @@ namespace ParavoidUI
 
         public void UpdateGeneralInput()
         {
-            if (Input.GetKeyDown(toggleMenuPanelKey))
+            if (Input.GetKeyDown(ToggleMenuPanel))
             {
-                ToggleMenuPanel();
-            }
-        }
-
-        public void ToggleMenuPanel()
-        {
-            foreach (Transform child in transform)
-            {
-                if (child.gameObject.name == "MenuPanelV2")
+                foreach (Transform child in transform)
                 {
-                    if (child.gameObject.activeInHierarchy)
+                    if (child.gameObject.name == "MenuPanelV2")
                     {
-                        Debug.Log("Deactive: " + child.gameObject.name);
-                        child.gameObject.SetActive(false);
-                        Cursor.lockState = CursorLockMode.Confined;
-                        Cursor.visible = false;
-                        Time.timeScale = 1;
-                    }
-                    else
-                    {
-                        Debug.Log("Active: " + child.gameObject.name);
-                        child.gameObject.SetActive(true);
-                        Cursor.lockState = CursorLockMode.None;
-                        Cursor.visible = true;
-                        Time.timeScale = 0;
-                    }
+                        if (child.gameObject.activeInHierarchy)
+                        {
+                            Debug.Log("Deactive: " + child.gameObject.name);
+                            child.gameObject.SetActive(false);
+                        }
+                        else
+                        {
+                            Debug.Log("Active: " + child.gameObject.name);
+                            child.gameObject.SetActive(true);
+                        }
 
-                    break;
+                        break;
+                    }
                 }
+               
             }
         }
 
@@ -90,14 +66,14 @@ namespace ParavoidUI
 
         public void ToggleFade()
         {
-            if (!isFaded)
+            if(!isFaded)
             {
-                isFaded = false;
+                isFaded = false; 
                 UnFadeScreen();
-            }
+            } 
             else
                 FadeScreenTo(0.4f);
         }
-    }
+    } 
 }
 
