@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db4eead572fee54a87bdacd790fc8f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promptText: {fileID: 100086944}
+  promptText: {fileID: 1266868662}
   dest_scene: AlexTutorial
   dest_pos: {x: -10, y: 2, z: 18}
 --- !u!1001 &999173146
